@@ -265,6 +265,10 @@
           <segments>Объект.СписокТоваров.Цена</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СписокТоваровЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СписокТоваровЦенаРасширеннаяПодсказка</name>
         <id>34</id>
@@ -317,6 +321,10 @@
           <segments>Объект.СписокТоваров.Количество</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СписокТоваровКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СписокТоваровКоличествоРасширеннаяПодсказка</name>
         <id>28</id>
